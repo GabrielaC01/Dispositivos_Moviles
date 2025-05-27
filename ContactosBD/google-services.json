@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "32766569953",
+    "firebase_url": "https://miproyectogcu-default-rtdb.firebaseio.com",
+    "project_id": "miproyectogcu",
+    "storage_bucket": "miproyectogcu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32766569953:android:3fa2617172c57a027ff6a0",
+        "android_client_info": {
+          "package_name": "com.example.contactosbd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKWehmgtJ1LsBtAZjhm6D-6AMNnkaQBjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

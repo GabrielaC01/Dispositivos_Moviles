@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Imagen del producto -->
+    <ImageView
+        android:id="@+id/imgmilogo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <!-- Datos del producto -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtmitalla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Talla"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtprecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtnumpares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pares"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtventatotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#000000"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+</LinearLayout>
